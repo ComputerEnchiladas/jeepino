@@ -1,0 +1,28 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding text-center">
+    <img src="http://192.168.1.109:9090/stream/video.mjpeg" style="width: 100%; height: 340px;"/>
+
+    <div class="row">
+      <div class="col-20">
+        <button class="button button-positive button-block" ng-mousedown="buttonOn('FWD-L')" ng-mouseup="buttonOff('FWD-L')">F-L</button>
+      </div>
+      <div class="col-20 col-offset-20">
+        <button class="button button-positive button-block" ng-mousedown="buttonOn('FWD')" ng-mouseup="buttonOff('FWD')">F</button>
+      </div>
+      <div class="col-20 col-offset-20">
+        <button class="button button-positive button-block" ng-mousedown="buttonOn('FWD-R')" ng-mouseup="buttonOff('FWD-R')">F-R</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-20">
+        <button class="button button-positive button-block" ng-mousedown="buttonOn('BWD-L')" ng-mouseup="buttonOff('BWD-L')">B-L</button>
+      </div>
+      <div class="col-20 col-offset-20">
+        <button class="button button-positive button-block" ng-mousedown="buttonOn('BWD')" ng-mouseup="buttonOff('BWD')">B</button>
+      </div>
+      <div class="col-20 col-offset-20">
+        <button class="button button-positive button-block" ng-mousedown="buttonOn('BWD-R')" ng-mouseup="buttonOff('BWD-R')">B-R</button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
