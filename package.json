@@ -1,0 +1,17 @@
+
+{
+  "name": "jeepino",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "johnny-five": "^0.10.6",
+    "mahrio": "^1.0.0",
+    "onoff": "^1.1.2",
+    "socket.io": "^1.7.3"
+  }
+}
