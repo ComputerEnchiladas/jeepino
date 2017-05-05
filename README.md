@@ -2,9 +2,9 @@
 
 ## MAHRIO Server 
 
-*```git clone https://github.com/ComputerEnchiladas/jeepino.git```
-*```npm install```
-*```node server.js```
+* ```git clone https://github.com/ComputerEnchiladas/jeepino.git```
+* ```npm install```
+* ```node server.js```
 
 ## UV4L Server
 
