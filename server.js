@@ -1,4 +1,5 @@
 process.env.NODE_URL='192.168.1.109'; // Default Port: 6085
+process.env.NODE_ENV="development";
 //process.env.PORT=8000; // Change Port
 
 // SERVO MOTOR SETUP
